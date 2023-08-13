@@ -1,0 +1,132 @@
+<link href="styles.css" rel="stylesheet" />
+<!DOCTYPE html>
+<html lang="en">
+<header>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Survey Form</title>
+  <h1 id="title">
+    freeCodeCamp Survey Form
+  </h1>
+  <p id="description">
+    Thank you for taking the time to help us improve the platform.
+  </p>
+</header>
+<form action="" id="survey-form">
+  <div class="form-group">
+    <label for="name" id="name-label">Name: </label>
+    <input type="name" id="name" class="form-control" required placeholder="Enter your full name">
+  </div>
+  <div class="form-group">
+    <label for="email" id="email-label">Email: </label>
+    <input type="email" id="email" class="form-control" required placeholder="Enter your email address">
+  </div>
+  <div class="form-group">
+    <label for="number" id="number-label">Age: </label>
+    <input type="number" id="number" class="form-control" optional min="13" max="120" placeholder="Enter your age">
+  </div>
+ <div class="form-group">
+    <p>
+      Which option best discribes your current role?
+    </p>
+    <select name="role" id="dropdown" class="form-control" required>
+      <option disabled selected value>Select current role</option>
+      <option value="student">Student</option>
+      <option value="full time job">Full Time Job</option>
+      <option value="full time learner">Full Time Learner</option>
+      <option value="prefer not to say">Prefer Not To Say</option>
+      <option value="other">Other</option>
+    </select>
+  </div>
+  <div class="form-check">
+    <p>
+      Would you recommend freeCodeCamp to a friend?
+    </p>
+    <label for="">
+      <input type="radio" name="user-recommend" value="definitely" class="form-check-input" checked>Definitely
+    </label>
+  </div>
+  <div class="form-check">
+    <label for="">
+      <input name="user-recommend" value="maybe" type="radio" class="form-check-input" checked />Maybe
+    </label>
+  </div>
+  <div class="form-check">
+    <label for="">
+      <input name="user-recommend" value="not sure" type="radio" class="form-check-input" />Not sure
+</label>
+  </div>
+  <div class="form-group">
+    <p>
+      What is your favorite feature of freeCodeCamp?
+    </p>
+    <select name="role" id="dropdown" class="form-control" required>
+      <option disabled selected value>Select an option</option>
+      <option value="challengs">Challenges</option>
+      <option value="projects">Projects</option>
+      <option value="Community">Community</option>
+      <option value="open source">Open Source</option>
+    </select>
+  </div>
+  <div class="form-group row">
+    <p>What would you like to see improved?
+      <span class"clue">(Check all that apply)</span>
+    </p>
+    <div class="form-check col-sm-4">
+      <input type="checkbox" class="form-check-input" id="check1" name="front-end projects" value="front-end projects" />
+      <label class="form-check-label">Front-end Projects</label>
+    </div>
+    <div class="form-check col-sm-4">
+      <input type="checkbox" class="form-check-input" id="check2" name="Back-end Projects" value="back-end projects" />
+      <label class="form-check-label">Back-end Projects</label>
+    </div>
+    <div class="form-check col-sm-4">
+      <input type="checkbox" class="form-check-input" id="check3" name="data visualization" value="data visualization" />
+        <label class="form-check-label">Data Visualization</label>
+</div>
+  <div class="form-check col-sm-4">
+    <input type="checkbox" class="form-check-input" id="check4" name="challenges" value="challenges" /> 
+    <label class="form-check-label">Challenges</label>
+</div>
+  <div class="form-check col-sm-4">
+    <input type="checkbox" class="form-check-input" id="check5" name="open source community" value="open source community" />
+    <label class="form-check-label">Open Source Community</label>
+</div>
+  <div class="form-check col-sm-4">
+    <input type="checkbox" class="form-check-input" id="check6" name="gitter help rooms" value="gitter help rooms" /> 
+    <label class="form-check-label">Glitter help rooms</label>
+</div>
+  <div class="form-check col-sm-4">
+    <input type="checkbox" class="form-check-input" id="check7" name="videos" value="vidoes" /> 
+    <label class="form-check-label">Videos</label>
+</div>
+  <div class="form-check col-sm-4">
+    <input type="checkbox" class="form-check-input" id="check8" name="city meetups" value="city meetups" /> 
+    <label class="">City Meetups</label>
+</div>
+  <div class="form-check sol-sm-4">
+    <input type="checkbox" class="form-check-input" id="check9" name="wiki" value="wiki" /> 
+    <label class="">Wiki</label>
+</div>
+  <div class="form-check sol-sm-4">
+    <input type="checkbox" class="form-check-input" id="check10" name="forum" value="forum" /> 
+    <label class="form-check-label">Forum</label>
+</div>
+  <div class="form-check sol-sm-4">
+    <input type="checkbox" class="form-check-input" id="check11" name="additional courses" value="additional courses" /> 
+    <label class="">Addional Courses</label>
+</div>
+  <p>Any comments or suggestions?</p>
+    <textarea name="comment" id="comments" col="5" row="5" placeholder="Enter your comment here..."></textarea> 
+    <input type="submit" id="submit" /> 
+</header>
+</form>
+</div>
+</html>
+
+
+
+
+
+
+
